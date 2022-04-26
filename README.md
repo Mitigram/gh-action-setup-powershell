@@ -1,5 +1,10 @@
 # Install PowerShell
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+**⛔️DEPRECATED⛔️** This repository is now in archive mode. You may get some
+voluntary support through this friendly [fork].
+
 This action will install `pwsh` (PowerShell) from the various Microsoft official
 installation locations. It is tuned for installing `pwsh` on Linux hosts, but is
 likely to work on other operating systems (e.g. OSX). Installation is performed
@@ -16,6 +21,8 @@ as follows:
   the project running the action, but will pertain once a job has ended, so that
   future attempts to run this action on the same runner and project, will not
   require downloading PowerShell again.
+
+  [fork]: https://github.com/efrecon/gh-action-setup-powershell
 
 ## Usage
 
